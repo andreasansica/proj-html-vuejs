@@ -1,9 +1,11 @@
 
-//  HEADER
+
 
 var app = new Vue ({
   el: '#app',
   data:{
+
+    //  HEADER
     superiore:[
       {
         telefono: {
@@ -40,6 +42,41 @@ var app = new Vue ({
         novita: 'NEWS',
         ammissione: 'ADMISSION',
         apply:'APPLY'
+      }
+    ],
+
+    //  FOOTER
+    colonne: [
+      {
+        titolo1:'AVADA UNIVERSITY',
+        indirizzo:{
+          icona:'fas fa-home',
+          testo:'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA'
+        },
+        numero:{
+          icona:'fas fa-phone',
+          testo:'1.800.458.556'
+        },
+        email:{
+          icona:'fas fa-envelope',
+          testo:'info@yourdomail.com',
+          orari:{
+            icona:"far fa-clock",
+            testo:'Monday-Friday: 8:00 AM -10:00 PM'
+          }
+        }
+      },
+      {
+        titolo2:'AVADA UNIVERSITY'
+      },
+      {
+        titolo3:'AVADA UNIVERSITY'
+      },
+      {
+        titolo4:'AVADA UNIVERSITY'
+      },
+      {
+        titolo5:'AVADA UNIVERSITY'
       }
     ]
   }
