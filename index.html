@@ -22,28 +22,42 @@
     <header>
       <!-- NAVBAR SUPERIORE -->
       <div id="superiore" v-for="item in superiore">
-        <nav>
-          {{item.telefono}}
-          {{item.contatti}}
-          {{item.alunni}}
-          {{item.campus}}
-        </nav>
-        <nav>
-        <i :class="item.facebook"></i>
-        <i :class="item.twitter"></i>
-        <i :class="item.youtube"></i>
-        <i :class="item.instagram"></i>
-        </nav>
+        <div class="topheader">
+          <nav>
+            <i :class="item.telefono.icona"></i>
+          <a href="#">{{item.telefono.numero}}</a>
+          <i :class="item.contatti.icona"></i>
+          <a href="#">{{item.contatti.testo}}</a>
+          <i :class="item.alunni.icona"></i>
+          <a href="#">{{item.alunni.testo}}</a>
+          <i :class="item.campus.icona"></i>
+          <a href="#">{{item.campus.testo}}</a>
+          </nav>
+          <nav>
+          <i :class="item.facebook"></i>
+          <i :class="item.twitter"></i>
+          <i :class="item.youtube"></i>
+          <i :class="item.instagram"></i>
+          </nav>
+        </div>
       </div>
 
       <!-- NAVBAR INFERIORE -->
-      <div id="inferiore">
-        <nav>
-
-        </nav>
-        <nav>
-
-        </nav>
+      <div id="inferiore" v-for="item in inferiore">
+        <div class="bottomheader">
+          <nav>
+            <img :src="item.logo" alt="logo univerisy">
+          </nav>
+          <nav id="link_inferiori">
+          <a href="#">{{item.home}}</a>
+          <a href="#">{{item.about}}</a>
+          <a href="#">{{item.corsi}}</a> <span>{{item.new}}</span>
+          <a href="#">{{item.corsi}}</a>
+          <a href="#">{{item.strutture}}</a>
+          <a href="#">{{item.novita}}</a>
+          <a href="#">{{item.ammissione}}</a> <span>{{item.apply}}</span>
+          </nav>
+        </div>
       </div>
     </header>
 

@@ -6,16 +6,51 @@
 }
 header{
 width: 100%;
+font-size: 14px;
 }
 #superiore{
   background-color: #ffab0b;
-  height: 40px;
+  height: 50px;
 }
 #inferiore{
   height: 100px;
 }
 
-header nav{
+.topheader{
   width: 70%;
   margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+.bottomheader{
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.topheader a, i{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+.bottomheader a{
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+#link_inferiori > a:first-child{
+  color:#ffab0b
+}
+#link_inferiori span{
+  background-color: #0ebcf2;
+  color: white;
+  font-size: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  margin-left: -8px;
 }

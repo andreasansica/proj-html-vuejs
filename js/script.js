@@ -6,10 +6,22 @@ var app = new Vue ({
   data:{
     superiore:[
       {
-        telefono: '1.800.567.8910',
-        contatti: 'Contact us',
-        alunni: 'Alumni',
-        campus: 'Campus',
+        telefono: {
+          icona:'fas fa-phone',
+          numero:'1.800.567.8910'
+        },
+        contatti:{
+          icona:'fas fa-envelope',
+          testo:'Contact us'
+        },
+        alunni: {
+          icona:"fas fa-graduation-cap",
+          testo:'Alumni'
+        },
+        campus:{
+          icona:"fas fa-university",
+          testo:'Campus'
+        },
         facebook:'fab fa-facebook-f',
         twitter:'fab fa-twitter',
         youtube:'fab fa-youtube',
@@ -22,10 +34,12 @@ var app = new Vue ({
         home: 'HOME',
         about: 'ABOUT',
         corsi: 'COURSES',
-        eventi: 'EVENTS',
+        new:'NEW',
+        corsi: 'EVENTS',
         strutture: 'FACILITIES',
         novita: 'NEWS',
-        ammissione: 'ADMISSION'
+        ammissione: 'ADMISSION',
+        apply:'APPLY'
       }
     ]
   }
