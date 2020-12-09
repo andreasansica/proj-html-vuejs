@@ -21,12 +21,18 @@
 
     <header>
       <!-- NAVBAR SUPERIORE -->
-      <div id="superiore" >
+      <div id="superiore" v-for="item in superiore">
         <nav>
-
+          {{item.telefono}}
+          {{item.contatti}}
+          {{item.alunni}}
+          {{item.campus}}
         </nav>
         <nav>
-
+        <i :class="item.facebook"></i>
+        <i :class="item.twitter"></i>
+        <i :class="item.youtube"></i>
+        <i :class="item.instagram"></i>
         </nav>
       </div>
 
