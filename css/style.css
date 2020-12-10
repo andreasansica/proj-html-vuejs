@@ -56,10 +56,77 @@ font-size: 14px;
 }
 
 /*   MAIN   */
-main img{
+
+main{
+  background-image: url("../img/home_main_slider_bg.jpg");
   height: 700px;
   width: 100%;
+  position: absolute;
 }
+ main #button_find{
+  background-color: #ffab0b;
+  padding: 10px;
+  border-radius: 5px;
+  width: 130px;
+}
+main #button_apply{
+  background-color: #0ebcf2;
+  padding: 10px;
+  border-radius: 5px;
+  width: 130px;
+}
+.jumbo{
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-top:20%;
+  margin-bottom: 50px;
+  color: white;
+}
+.jumbo h1{
+  font-size: 55px;
+  padding-bottom: 10px;
+}
+.jumbo h2{
+  font-size: 20px;
+}
+.jumbo_button{
+  display: flex;
+  justify-content: center;
+}
+.jumbo_button button{
+  margin-right: 20px;
+  color: white;
+}
+
+/*   SECTION 1   */
+section{
+  width: 100%;
+}
+.logo{
+  display: flex;
+  margin-top: 800px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.intestazione{
+  text-align: center;
+}
+.intestazione h3{
+  margin-top: 20px;
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,7 +134,7 @@ main img{
 /*  FOOTER */
 
 footer{
-  margin-top: 500px;
+  margin-top: 1000px;
   height: 500px;
   width: 100%;
   display: flex;
