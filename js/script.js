@@ -48,36 +48,55 @@ var app = new Vue ({
     //  FOOTER
     colonne: [
       {
-        titolo1:'AVADA UNIVERSITY',
-        indirizzo:{
-          icona:'fas fa-home',
-          testo:'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA'
-        },
-        numero:{
-          icona:'fas fa-phone',
-          testo:'1.800.458.556'
-        },
-        email:{
-          icona:'fas fa-envelope',
-          testo:'info@yourdomail.com',
-          orari:{
-            icona:"far fa-clock",
-            testo:'Monday-Friday: 8:00 AM -10:00 PM'
-          }
-        }
+        testo:[ 'AVADA UNIVERSITY' ,
+                'Residential Location 9521 Broadsberry Avenue       Paddington RC7 9ZA' ,
+                '1.800.458.556',
+                'info@yourdomail.com',
+                'Monday-Friday: 8:00 AM -10:00 PM'
+              ],
+        icona:['fas fa-home','fas fa-phone' ,'fas fa-envelope', "far fa-clock"]
+      },
+
+      {
+        testo:[
+                'RECENT POSTS',
+                'What do successful grads think you should study?',
+                'March 16,2016',
+                'Former student discussed success in the fashion industry',
+                'March 16, 2016',
+                'How do you best prepare for university?',
+                'March 17, 2016'
+              ]
       },
       {
-        titolo2:'AVADA UNIVERSITY'
+        testo:[
+                'COURSES',
+                'Arts e umanities',
+                'Business e managment',
+                'Engineering & technology',
+                'Life science & Medicine',
+                'Natural science'
+              ]
       },
       {
-        titolo3:'AVADA UNIVERSITY'
+        testo:[
+                'RESOURCES',
+                'Campus Directory',
+                'Academic calendary',
+                'Sport Clubs',
+                'Graduate programs',
+                'Faculty e staff'
+              ]
       },
+
       {
-        titolo4:'AVADA UNIVERSITY'
+        testo:[
+              'UPCOMING EVENT',
+              'Business seminar',
+              'July, 1,2019 @ 8.00 am - July 1, 2019 @ 5.00 pm',
+              'United States'
+            ]
       },
-      {
-        titolo5:'AVADA UNIVERSITY'
-      }
     ]
   }
 })

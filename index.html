@@ -61,6 +61,19 @@
       </div>
     </header>
 
+    <!-- JUMBOTRON -->
+    <main>
+      <img src="img/home_main_slider_bg.jpg" alt="">
+      <div class="jumbo">
+        <h1>Inspiring Tomorrow Leaders</h1>
+        <h2>The Future Belongs To Those Who See Possibilities Today</h2>
+      </div>
+      <div class="jumbo_button">
+        <button type="button" name="button">FIND A COURSE</button>
+        <button type="button" name="button">APPLY NOW</button>
+      </div>
+    </main>
+
 
 
 
@@ -70,35 +83,16 @@
     <footer >
       <!-- DIVIDO IL FOOTER IN 5 BLOCCHI -->
       <div class="footer_sup" >
-        <div class="prima" >
-
+        <div class="colonna" v-for="(item, i) in colonne">
+        <h2>{{item.testo[0]}}</h2>
+        <i :class="item.icona"></i>
+        <p>{{item.testo[1]}}</p>
+        <p>{{item.testo[2]}}</p>
+        <p>{{item.testo[3]}}</p>
+        <p>{{item.testo[4]}}</p>
+        <p>{{item.testo[5]}}</p>
+        <p>{{item.testo[6]}}</p>
         </div>
-        <div class="seconda">
-
-        </div>
-        <div class="terza">
-          <div class="corsi">
-
-          </div>
-          <div class="admission">
-
-          </div>
-        </div>
-        <div class="quarta">
-          <div class="risorse">
-
-          </div>
-          <div class="quicklinks">
-
-          </div>
-        </div>
-        <div class="quinta">
-          <div class="business">
-
-          </div>
-          <div class="politics">
-
-          </div>
         </div>
       </div>
 

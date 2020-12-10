@@ -55,7 +55,11 @@ font-size: 14px;
   margin-left: -8px;
 }
 
-
+/*   MAIN   */
+main img{
+  height: 700px;
+  width: 100%;
+}
 
 
 
@@ -63,9 +67,15 @@ font-size: 14px;
 /*  FOOTER */
 
 footer{
-  margin-top: 50px;
+  margin-top: 500px;
   height: 500px;
   width: 100%;
   display: flex;
-  border: 1px solid red;
+}
+.footer_sup{
+  display: flex;
+}
+.colonna{
+  width: 275px;
+  height: 200px;
 }
