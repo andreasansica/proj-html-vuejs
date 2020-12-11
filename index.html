@@ -20,6 +20,7 @@
   <div id="app">
 
     <header>
+
       <!-- NAVBAR SUPERIORE -->
       <div id="superiore" v-for="item in superiore">
         <div class="topheader">
@@ -83,7 +84,7 @@
         <h3>We offer a wide range of high quality of teaching and extra-curricular activies</h3>
       </div>
 
-      <!-- CORPO CENTRALE SECTION -->
+      <!-- CORPO CENTRALE SECTION 1-->
       <div class="sec_one">
         <div class="text">
           <h1>WHY CHOOSE AVADA UNIVERSITY?</h1>
@@ -96,7 +97,7 @@
         </div>
       </div>
 
-      <!--   SECONDA PARTE SECTION -->
+      <!--   SECONDA PARTE SECTION 1-->
       <div class="container">
         <div class="sec_one">
           <div class="text">
@@ -145,8 +146,8 @@
       </div>
     </section>
 
-    <!--  SECTION 3  -->
 
+    <!--  SECTION 3  -->
     <section>
       <div class="sec">
         <div class="logo_sez">
@@ -156,7 +157,8 @@
         <h3>Covering topics from classes to politics and student organization events.</h3>
       </div>
 
-      <!--  SEZIONE CON BLOG 3 IMG -->
+
+      <!--  SEZIONE CON BLOG IMG -->
       <div class="blog">
         <div class="first">
           <img src="img/news_single_post_header_1-200x111.jpg" alt="">
@@ -179,6 +181,7 @@
       </div>
     </section>
 
+
     <!--  SECTION FORM   -->
     <section id="form">
       <div class="container_form">
@@ -200,8 +203,10 @@
 
 
 
-
+   <!--   FOOTER   -->
     <footer >
+
+      <!--   FOOTER SUPERIORE   -->
       <!-- DIVIDO IL FOOTER IN 5 BLOCCHI -->
       <div class="footer_sup" >
           <div class="col" v-for="(item,i) in footer1">
@@ -225,6 +230,7 @@
           </div>
       </div>
 
+        <!--  BLOCCO 2  -->
           <div class="col" v-for="(item,i) in footer2">
             <h3>{{item.testo[0]}}</h3>
             <div class="first_ask">
@@ -241,6 +247,8 @@
             </div>
           </div>
 
+
+          <!--  BLOCCO 3  -->
           <div>
             <div class="col" v-for="(item,i) in footer3">
               <h3>{{item.testo[0]}}</h3>
@@ -261,6 +269,8 @@
             </div>
           </div>
 
+
+          <!--  BLOCCO 4   -->
           <div>
             <div class="col" v-for="(item,i) in footer5">
               <h3>{{item.testo[0]}}</h3>
@@ -269,7 +279,7 @@
               <h5>{{item.testo[3]}}</h5>
               <h5>{{item.testo[4]}}</h5>
               <h5>{{item.testo[5]}}</h5>
-              </div>
+            </div>
 
 
               <div class="col" v-for="(item,i) in footer6">
@@ -279,28 +289,27 @@
                 <h5>{{item.testo[3]}}</h5>
                 <h5>{{item.testo[4]}}</h5>
                 <h5>{{item.testo[5]}}</h5>
-                </div>
+              </div>
           </div>
 
 
+          <!--  BLOCCO 5  -->
           <div>
             <div class="col" v-for="(item,i) in footer7">
               <h3>{{item.testo[0]}}</h3>
               <h5>{{item.testo[1]}}</h5>
               <p>{{item.testo[2]}}</p>
               <p>{{item.testo[3]}}</p>
-              </div>
+            </div>
 
               <div class="col" v-for="(item,i) in footer8">
                 <h5>{{item.testo[0]}}</h5>
                 <p>{{item.testo[1]}}</p>
                 <p>{{item.testo[2]}}</p>
                 <span>{{item.testo[3]}}</span>
-                </div>
+              </div>
           </div>
 
-          </div>
-      </div>
       </div>
 
 
@@ -326,14 +335,9 @@
           <i class="fab fa-instagram"></i>
         </div>
       </div>
-
     </footer>
 
-  </div>
-</div>
 
-  </div>
-</div>
 
 <script src="js/script.js"></script>
 </body>

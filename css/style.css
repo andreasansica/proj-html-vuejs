@@ -1,9 +1,14 @@
+
+/*  REGOLE GENERALI */
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Lato'
 }
+
+
+/* HEADER */
 header{
 width: 100%;
 font-size: 14px;
@@ -55,8 +60,8 @@ font-size: 14px;
   margin-left: -8px;
 }
 
-/*   MAIN   */
 
+/*   MAIN   */
 main{
   background-image: url("../img/home_main_slider_bg.jpg");
   height: 700px;
@@ -100,6 +105,7 @@ main #button_apply{
   border: 0;
 }
 
+
 /*   SECTION 1   */
 section{
   width: 100%;
@@ -119,7 +125,7 @@ section{
   color: grey;
 }
 
-
+/*  SECTION 1   */
 .sec_one{
   display: flex;
   width: 80%;
@@ -128,7 +134,6 @@ section{
   margin-top: 100px;
   padding: 10px;
 }
-
 .text{
   width: 50%;
 }
@@ -188,6 +193,7 @@ margin-bottom: 30px;
  line-height: 40px;
 }
 
+
 /* SECTION 2 */
 #sec-two{
   height: 600px;
@@ -225,9 +231,6 @@ color: white;
 
 
 
-
-
-
 /*  SECTION 3 */
 
 .logo_sez{
@@ -245,6 +248,8 @@ color: white;
   color: grey;
 }
 
+
+/*   SECTION BLOG   */
 .blog{
   display: flex;
   width: 70%;
@@ -334,7 +339,6 @@ color: white;
 
 
 /*  FOOTER */
-
 footer{
   margin-top: 100px;
   height: 400px;
@@ -342,6 +346,8 @@ footer{
   display: flex;
   background-image: url("..img/university_ft_bg.png");
 }
+
+/*   FOOTER SUPERIORE   */
 .footer_sup{
   display: flex;
   margin-left: 5%;
@@ -383,10 +389,6 @@ footer{
   position: absolute;
 }
 
-
-
-
-/* PRIMA COLONNA */
 .home_info, .phone_info, .mail_info, .orari_info{
   display: flex;
 }
@@ -402,7 +404,6 @@ footer{
 
 
 /* FOOTER INFERIORE */
-
 .footer_inf{
   display: flex;
   justify-content: space-between;

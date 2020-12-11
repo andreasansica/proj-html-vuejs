@@ -6,6 +6,9 @@ var app = new Vue ({
   data:{
 
     //  HEADER
+    //  DIVIDO L'HEADER IN 2 GRUPPI
+
+    // GRUPPO SUPERIORE
     superiore:[
       {
         telefono: {
@@ -30,6 +33,8 @@ var app = new Vue ({
         instagram:'fab fa-instagram'
       }
     ],
+
+    //  GRUPPO INFERIORE
     inferiore:[
       {
         logo:'img/university_logo.png',
@@ -45,7 +50,12 @@ var app = new Vue ({
       }
     ],
 
+
+
     //  FOOTER
+    // DIVIDO IL FOOTER IN 8
+
+
     footer1: [
       {
         testo:[
@@ -59,7 +69,7 @@ var app = new Vue ({
             'fas fa-home',
             'fas fa-phone',
             'fas fa-envelope',
-             "far fa-clock"
+            "far fa-clock"
          ]
       }
     ],
