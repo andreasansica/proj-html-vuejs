@@ -102,9 +102,9 @@
           <div class="text">
             <h1 id="title">WORLD CLASS FACILITIES</h1>
             <p id="title">Avada university is devoted to excellenge in teaching, learning, and research, and developing leaders in many dispiplines who make a difference globally.</p>
-            <span><i class="fas fa-globe"></i> <h3>International Focus</h3> <p>- our student come from across the globe</p> </span>
-            <span><i class="fas fa-graduation-cap"></i> <h3>Residential Courses</h3><p>- we encourage learning and growth</p></span>
-            <span> <i class="fas fa-address-book"></i> <h3>People Not Frofit</h3> <p>- education is a right not a privilege</p></span>
+            <span><i class="fas fa-globe"></i> <h3>International Focus</h3> <p> - our student come from across the globe</p> </span>
+            <span><i class="fas fa-graduation-cap"></i> <h3>Residential Courses</h3><p> - we encourage learning and growth</p></span>
+            <span> <i class="fas fa-address-book"></i> <h3>People Not Frofit</h3> <p> - education is a right not a privilege</p></span>
             <p>If you prefer to study in your our time and at your own speed then one of our e-learning packages may be right up your street</p>
           </div>
           <div class="video">
@@ -204,7 +204,7 @@
     <footer >
       <!-- DIVIDO IL FOOTER IN 5 BLOCCHI -->
       <div class="footer_sup" >
-          <div class="first_col" v-for="(item,i) in footer1">
+          <div class="col" v-for="(item,i) in footer1">
             <h3>{{item.testo[0]}}</h3>
             <div class="home_info">
               <i :class="item.icona[0]"></i>
@@ -225,8 +225,8 @@
           </div>
       </div>
 
-          <div class="first_col" v-for="(item,i) in footer2">
-            <h4>{{item.testo[0]}}</h4>
+          <div class="col" v-for="(item,i) in footer2">
+            <h3>{{item.testo[0]}}</h3>
             <div class="first_ask">
               <h4>{{item.testo[1]}}</h4>
               <p>{{item.testo[2]}}</p>
@@ -241,9 +241,9 @@
             </div>
           </div>
 
-          <div class="">
-            <div class="first_col" v-for="(item,i) in footer3">
-              <h4>{{item.testo[0]}}</h4>
+          <div>
+            <div class="col" v-for="(item,i) in footer3">
+              <h3>{{item.testo[0]}}</h3>
               <h5>{{item.testo[1]}}</h5>
               <h5>{{item.testo[2]}}</h5>
               <h5>{{item.testo[3]}}</h5>
@@ -251,8 +251,8 @@
               <h5>{{item.testo[5]}}</h5>
             </div>
 
-            <div class="first_col" v-for="(item,i) in footer4">
-              <h4>{{item.testo[0]}}</h4>
+            <div class="col" v-for="(item,i) in footer4">
+              <h3>{{item.testo[0]}}</h3>
               <h5>{{item.testo[1]}}</h5>
               <h5>{{item.testo[2]}}</h5>
               <h5>{{item.testo[3]}}</h5>
@@ -261,9 +261,9 @@
             </div>
           </div>
 
-          <div class="">
-            <div class="second_col" v-for="(item,i) in footer5">
-              <h4>{{item.testo[0]}}</h4>
+          <div>
+            <div class="col" v-for="(item,i) in footer5">
+              <h3>{{item.testo[0]}}</h3>
               <h5>{{item.testo[1]}}</h5>
               <h5>{{item.testo[2]}}</h5>
               <h5>{{item.testo[3]}}</h5>
@@ -272,8 +272,8 @@
               </div>
 
 
-              <div class="second_col" v-for="(item,i) in footer6">
-                <h4>{{item.testo[0]}}</h4>
+              <div class="col" v-for="(item,i) in footer6">
+                <h3>{{item.testo[0]}}</h3>
                 <h5>{{item.testo[1]}}</h5>
                 <h5>{{item.testo[2]}}</h5>
                 <h5>{{item.testo[3]}}</h5>
@@ -283,23 +283,19 @@
           </div>
 
 
-          <div class="">
-            <div class="second_col" v-for="(item,i) in footer7">
-              <h4>{{item.testo[0]}}</h4>
+          <div>
+            <div class="col" v-for="(item,i) in footer7">
+              <h3>{{item.testo[0]}}</h3>
               <h5>{{item.testo[1]}}</h5>
-              <h5>{{item.testo[2]}}</h5>
-              <h5>{{item.testo[3]}}</h5>
-              <h5>{{item.testo[4]}}</h5>
-              <h5>{{item.testo[5]}}</h5>
+              <p>{{item.testo[2]}}</p>
+              <p>{{item.testo[3]}}</p>
               </div>
 
-              <div class="second_col" v-for="(item,i) in footer8">
-                <h4>{{item.testo[0]}}</h4>
-                <h5>{{item.testo[1]}}</h5>
-                <h5>{{item.testo[2]}}</h5>
-                <h5>{{item.testo[3]}}</h5>
-                <h5>{{item.testo[4]}}</h5>
-                <h5>{{item.testo[5]}}</h5>
+              <div class="col" v-for="(item,i) in footer8">
+                <h5>{{item.testo[0]}}</h5>
+                <p>{{item.testo[1]}}</p>
+                <p>{{item.testo[2]}}</p>
+                <span>{{item.testo[3]}}</span>
                 </div>
           </div>
 

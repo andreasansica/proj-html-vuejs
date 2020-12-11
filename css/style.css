@@ -313,7 +313,7 @@ color: white;
   display: flex;
 }
 .form_action input{
-  height: 30px;
+  height: 35px;
   width: 250px;
   padding: 10px;
   background-color: #667287;
@@ -323,9 +323,8 @@ color: white;
   font-size: 12px;
 }
 .form_action button{
-  height: 30px;
-  width: 150px;
-  padding: 10px;
+  height: 35px;
+  width: 180px;
   background-color: #ffab0b;
   border: 0;
   color: white;
@@ -338,38 +337,69 @@ color: white;
 
 footer{
   margin-top: 100px;
-  height: 300px;
+  height: 400px;
   width: 100%;
   display: flex;
+  background-image: url("..img/university_ft_bg.png");
 }
 .footer_sup{
   display: flex;
   margin-left: 5%;
 }
-.first_col{
-  width: 265px;
-  height: 200px;
+.col{
+  width: 250px;
   padding: 10px;
+  margin-bottom: 20px;
 }
-.footer_sup h3{
-  font-size: 14px;
+.col h3{
+  font-size: 15px;
+  padding-bottom: 15px;
 }
-.footer_sup p{
-  font-size: 12px;
+.col p{
+  font-size: 13px;
   color: grey;
   padding-top: 8px;
 }
-.footer_sup i{
-  font-size: 12px;
+.col i{
+  font-size: 13px;
   color: grey;
   padding-top: 8px;
 }
+.col h5{
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.col h4{
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+.col span{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 30px;
+  position: absolute;
+}
+
+
 
 
 /* PRIMA COLONNA */
 .home_info, .phone_info, .mail_info, .orari_info{
   display: flex;
 }
+
+.first_ask, .second_ask, .third_ask{
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.first_ask, .second_ask, .third_ask p{
+  padding-bottom: 10px;
+}
+
+
 
 /* FOOTER INFERIORE */
 

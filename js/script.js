@@ -69,11 +69,11 @@ var app = new Vue ({
         {
           testo:[
               'RECENT POSTS',
-              'What do successful grads think you should study?',
+              ' > What do successful grads think you should study?',
               'March 16,2016',
-              'Former student discussed success in the fashion industry',
+              ' > Former student discussed success in the fashion industry',
               'March 16, 2016',
-              'How do you best prepare for university?',
+              ' > How do you best prepare for university?',
               'March 17, 2016'
                 ]
         },
@@ -143,10 +143,10 @@ var app = new Vue ({
       footer8:[
         {
           testo:[
-              'POLITICS SEMINAR',
+              'Politics seminar',
               'November 6, 2019 @8:00 am - November 6, 2021 @ 5:00 pm',
               'United Kingdom',
-              'View More'
+              'View More...'
                 ]
         }
       ]
