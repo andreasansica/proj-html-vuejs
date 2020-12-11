@@ -87,7 +87,9 @@
       <div class="sec_one">
         <div class="text">
           <h1>WHY CHOOSE AVADA UNIVERSITY?</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>We offer a range of training packages in a range of subject areas and can offer blended learning opportunities to best meet your needs. If sitting in a room with a trainer and having the opportunity for discussion with other learners sounds good to you then we can offer this. If you prefer to study in your own time and at your own speed then one of our world class facilities. <br> <br>
+          If you prefer to study in your own time and at your own speed then one of our e-learning packages may be right up your street. There is a third option, which is you like the sound of both but perhaps can’t attend all training sessions, this is when blended learning comes into its own.
+          </p>
         </div>
         <div class="video">
           <img src="img/business_seminar_event_feat-400x268.jpg" alt="">
@@ -121,13 +123,25 @@
     <!--   SECTION 2  -->
     <section id="sec-two">
       <div class="courses">
-
+        <img src="img/home_courses_section_bg.jpg" alt="">
+        <span>
+          <h1>COURSES</h1><br>
+          <a href="#">View More</a>
+        </span>
       </div>
       <div class="events">
-
+        <img src="img/home_events_section_bg.jpg" alt="">
+        <span>
+          <h1>EVENTS</h1> <br>
+          <a href="#">View More</a>
+        </span>
       </div>
       <div class="news">
-
+        <img src="img/home_latest_news_section_bg.jpg" alt="">
+        <span>
+          <h1>LATEST NEWS</h1> <br>
+          <a href="#">View More</a>
+        </span>
       </div>
     </section>
 
@@ -190,29 +204,141 @@
     <footer >
       <!-- DIVIDO IL FOOTER IN 5 BLOCCHI -->
       <div class="footer_sup" >
-        <div class="colonna" v-for="(item, i) in colonne">
-        <h2>{{item.testo[0]}}</h2>
-        <i :class="item.icona"></i>
-        <p>{{item.testo[1]}}</p>
-        <p>{{item.testo[2]}}</p>
-        <p>{{item.testo[3]}}</p>
-        <p>{{item.testo[4]}}</p>
-        <p>{{item.testo[5]}}</p>
-        <p>{{item.testo[6]}}</p>
-        </div>
-        </div>
+          <div class="first_col" v-for="(item,i) in footer1">
+            <h3>{{item.testo[0]}}</h3>
+            <div class="home_info">
+              <i :class="item.icona[0]"></i>
+              <p>{{item.testo[1]}}</p>
+            </div>
+            <div class="phone_info">
+              <i :class="item.icona[1]"></i>
+              <p>{{item.testo[2]}}</p>
+            </div>
+            <div class="mail_info">
+              <i :class="item.icona[2]"></i>
+              <p>{{item.testo[3]}}</p>
+            </div>
+            <div class="orari_info">
+              <i :class="item.icona[3]"></i>
+              <p>{{item.testo[4]}}</p>
+            </div>
+          </div>
+      </div>
+
+          <div class="first_col" v-for="(item,i) in footer2">
+            <h4>{{item.testo[0]}}</h4>
+            <div class="first_ask">
+              <h4>{{item.testo[1]}}</h4>
+              <p>{{item.testo[2]}}</p>
+            </div>
+            <div class="second_ask">
+              <h4>{{item.testo[3]}}</h4>
+              <p>{{item.testo[4]}}</p>
+            </div>
+            <div class="third_ask">
+              <h4>{{item.testo[5]}}</h4>
+              <p>{{item.testo[6]}}</p>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="first_col" v-for="(item,i) in footer3">
+              <h4>{{item.testo[0]}}</h4>
+              <h5>{{item.testo[1]}}</h5>
+              <h5>{{item.testo[2]}}</h5>
+              <h5>{{item.testo[3]}}</h5>
+              <h5>{{item.testo[4]}}</h5>
+              <h5>{{item.testo[5]}}</h5>
+            </div>
+
+            <div class="first_col" v-for="(item,i) in footer4">
+              <h4>{{item.testo[0]}}</h4>
+              <h5>{{item.testo[1]}}</h5>
+              <h5>{{item.testo[2]}}</h5>
+              <h5>{{item.testo[3]}}</h5>
+              <h5>{{item.testo[4]}}</h5>
+              <h5>{{item.testo[5]}}</h5>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="second_col" v-for="(item,i) in footer5">
+              <h4>{{item.testo[0]}}</h4>
+              <h5>{{item.testo[1]}}</h5>
+              <h5>{{item.testo[2]}}</h5>
+              <h5>{{item.testo[3]}}</h5>
+              <h5>{{item.testo[4]}}</h5>
+              <h5>{{item.testo[5]}}</h5>
+              </div>
+
+
+              <div class="second_col" v-for="(item,i) in footer6">
+                <h4>{{item.testo[0]}}</h4>
+                <h5>{{item.testo[1]}}</h5>
+                <h5>{{item.testo[2]}}</h5>
+                <h5>{{item.testo[3]}}</h5>
+                <h5>{{item.testo[4]}}</h5>
+                <h5>{{item.testo[5]}}</h5>
+                </div>
+          </div>
+
+
+          <div class="">
+            <div class="second_col" v-for="(item,i) in footer7">
+              <h4>{{item.testo[0]}}</h4>
+              <h5>{{item.testo[1]}}</h5>
+              <h5>{{item.testo[2]}}</h5>
+              <h5>{{item.testo[3]}}</h5>
+              <h5>{{item.testo[4]}}</h5>
+              <h5>{{item.testo[5]}}</h5>
+              </div>
+
+              <div class="second_col" v-for="(item,i) in footer8">
+                <h4>{{item.testo[0]}}</h4>
+                <h5>{{item.testo[1]}}</h5>
+                <h5>{{item.testo[2]}}</h5>
+                <h5>{{item.testo[3]}}</h5>
+                <h5>{{item.testo[4]}}</h5>
+                <h5>{{item.testo[5]}}</h5>
+                </div>
+          </div>
+
+          </div>
+      </div>
       </div>
 
 
-      <!-- FOOTER INFERIORE -->
-      <div class="">
 
+
+      <!-- FOOTER INFERIORE -->
+      <div class="footer_inf">
+        <div class="left">
+          <a href="#">Theme Fusion</a>
+          <span>|</span>
+          <a href="#">All Right Reserved</a>
+          <span>|</span>
+          <a href="#">Powered by Wordpress</a>
+          <span>|</span>
+          <a href="#">supportr@theme-fusion.com</a>
+          <span>|</span>
+          <a href="#">1.800.555.6789</a>
+        </div>
+        <div class="right">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
       </div>
 
     </footer>
 
+  </div>
+</div>
 
   </div>
+</div>
+
 <script src="js/script.js"></script>
 </body>
 
