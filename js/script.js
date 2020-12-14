@@ -13,7 +13,7 @@ var app = new Vue ({
       {
         telefono: {
           icona:'fas fa-phone',
-          numero:'1.800.567.8910'
+          testo:'1.800.567.8910'
         },
         contatti:{
           icona:'fas fa-envelope',
@@ -42,12 +42,13 @@ var app = new Vue ({
         about: 'ABOUT',
         corsi: 'COURSES',
         new:'NEW',
-        corsi: 'EVENTS',
+        eventi: 'EVENTS',
         strutture: 'FACILITIES',
         novita: 'NEWS',
         ammissione: 'ADMISSION',
         apply:'APPLY'
       }
+
     ],
 
 
