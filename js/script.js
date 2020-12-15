@@ -59,106 +59,116 @@ var app = new Vue ({
 
     footer1: [
       {
-        testo:[
-            'AVADA UNIVERSITY' ,
-            'Residential Location 9521 Broadsberry Avenue       Paddington RC7 9ZA' ,
-            '1.800.458.556',
-            'info@yourdomail.com',
-            'Monday-Friday: 8:00 AM -10:00 PM'
-              ],
-        icona:[
-            'fas fa-home',
-            'fas fa-phone',
-            'fas fa-envelope',
-            "far fa-clock"
-         ]
+        testo:
+          {
+            titolo:  'AVADA UNIVERSITY' ,
+            indirizzo:  'Residential Location 9521 Broadsberry Avenue       Paddington RC7 9ZA' ,
+            telefono:  '1.800.458.556',
+            mail:  'info@yourdomail.com',
+            orari:  'Monday-Friday: 8:00 AM -10:00 PM'
+          },
+        icona:
+          {
+            indirizzo:'fas fa-home',
+            telefono:'fas fa-phone',
+            mail:'fas fa-envelope',
+            orari:"far fa-clock"
+
+          }
       }
     ],
 
 
       footer2:[
         {
-          testo:[
-              'RECENT POSTS',
-              ' > What do successful grads think you should study?',
-              'March 16,2016',
-              ' > Former student discussed success in the fashion industry',
-              'March 16, 2016',
-              ' > How do you best prepare for university?',
-              'March 17, 2016'
-                ]
+          testo:
+            {
+              titolo:'RECENT POSTS',
+              ask1:' > What do successful grads think you should study?',
+              data1:'March 16,2016',
+              ask2:' > Former student discussed success in the fashion industry',
+              data2:'March 16, 2016',
+              ask3:' > How do you best prepare for university?',
+              data3:'March 17, 2016'
+            }
         },
       ],
 
       footer3:[
         {
-          testo:[
-              'COURSES',
-              'Arts e umanities',
-              'Business e managment',
-              'Engineering & technology',
-              'Life science & Medicine',
-              'Natural science'
-                ]
+          testo:
+            {
+              titolo:'COURSES',
+              link1:'Arts e umanities',
+              link2:'Business e managment',
+              link3:'Engineering & technology',
+              link4:'Life science & Medicine',
+              link5:'Natural science'
+            }
         },
       ],
       footer4:[
         {
-          testo:[
-              'ADMISSION',
-              'Eligibility',
-              'Application',
-              'Review Process',
-              'How to apply'
-                ]
+          testo:
+            {
+              titolo:'ADMISSION',
+              link1:'Eligibility',
+              link2:'Application',
+              link3:'Review Process',
+              link4:'How to apply'
+            }
         },
       ],
 
       footer5:[
         {
-          testo:[
-              'RESOURCES',
-              'Campus Directory',
-              'Academic calendary',
-              'Sport Clubs',
-              'Graduate programs',
-              'Faculty e staff'
-                ]
+          testo:
+            {
+              titolo:'RESOURCES',
+              link1:'Campus Directory',
+              link2:'Academic calendary',
+              link3:'Sport Clubs',
+              link4:'Graduate programs',
+              link5:'Faculty e staff'
+            }
         },
       ],
 
 
       footer6:[
         {
-          testo:[
-              'QUICKLINES',
-              'University Library',
-              'Campus Servicy',
-              'Careers'
-                ]
+          testo:
+            {
+              titolo:'QUICKLINES',
+              link1:'University Library',
+              link2:'Campus Servicy',
+              link3:'Careers'
+            }
         }
       ],
 
 
       footer7:[
         {
-          testo:[
-              'UPCOMING EVENT',
-              'Business seminar',
-              'July, 1,2019 @ 8.00 am - July 1, 2019 @ 5.00 pm',
-              'United States'
-              ]
+          testo:
+            {
+              titolo:'UPCOMING EVENT',
+              link1:'Business seminar',
+              data:'July, 1,2019 @ 8.00 am - July 1, 2019 @ 5.00 pm',
+              stato:'United States'
+            }
         },
       ],
 
       footer8:[
         {
-          testo:[
-              'Politics seminar',
-              'November 6, 2019 @8:00 am - November 6, 2021 @ 5:00 pm',
-              'United Kingdom',
-              'View More...'
-                ]
+          testo:
+            {
+              titolo:'Politics seminar',
+              data:'November 6, 2019 @8:00 am - November 6, 2021 @ 5:00 pm',
+              stato:'United Kingdom',
+              link:'View More...'
+            }
         }
       ]
 
